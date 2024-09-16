@@ -3,6 +3,9 @@
 (defconst mu4e-mu-version "@VERSION@"
   "Required mu binary version; mu4e's version must agree with this.")
 
+(defconst mu-version-extra "@MU_VERSION_EXTRA@"
+  "Suffix to version (in display).")
+
 (defconst mu4e-doc-dir "@MU_DOC_DIR@"
   "Mu4e's data-dir.")
 
